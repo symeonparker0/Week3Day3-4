@@ -1,0 +1,126 @@
+body{
+    margin:0 ;
+    background-color: brown;
+    background-image: url(HTMLProjectAssets/Chopping.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.maincontent1 {
+    margin:0;
+    padding-top: 150px;
+    
+    
+}
+.maincontent1 h1{
+    display:flex;
+    justify-content: center;
+    color: white;
+    font-size: 160px;
+    border-bottom: solid white;
+    border-width: 5px;
+    margin: 0px 500px 0px 500px;
+}
+.maincontent1 p{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 400px;
+    font-size: 80px;
+    font-family: 'Aguafina Script';
+    color: black;
+}
+
+.Nav{
+    margin:0px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    width: 2500px;
+    color: burlywood;
+    display: flex;
+    flex-direction: row;
+    
+}
+.Nav ul{
+    text-align: end;
+}
+.Nav li{
+    display: inline;
+    font-size: 40px;
+    padding-left:10px;
+    padding-right:10px;
+    
+    
+}
+.Nav h1{
+    font-size: 35px;
+    text-align: start;
+    padding-right: 1800px;
+    padding-left: 100px;
+}
+hr{
+    padding:0%;
+    margin-left: 100px;
+    margin-right:100px;
+    height: 5px;
+    background-color: white;
+}
+.menutop {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+   flex-wrap: wrap;
+    color: white;
+    background-color: black;
+    border-top: solid white;
+    border-bottom: solid white;
+    border-width:10px;
+    
+}
+.menutop h1 {
+    padding-top: 50px;
+    padding-left:50px;
+    font-size: 60px;
+}
+.menutop p {
+    font-size: 35px;
+    padding-left:50px;
+}
+
+.menubottom {
+    Height:800px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    background-color: rgb(48, 42, 42);
+    color:white;
+}
+.menubottom h1{
+    padding-top: 200px;
+    padding-left: 400px;
+    font-size: 60px;
+}
+.menubottom p{
+    padding-left: 400px;
+    font-size: 35px;
+    
+}
+.Pinapple {
+    text-align: end;
+}
+.Contact {
+    Height:650px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(54, 51, 51);
+    color: white;
+}
+.Contact h1 {
+    padding-top: 100px;
+    padding-left:50px;
+    font-size: 60px;
+}
+.Contact p {
+    font-size: 35px;
+    padding-left:85px;
+}
